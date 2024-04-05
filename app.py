@@ -1,6 +1,8 @@
 #importing necessary libraries
 import streamlit as st
 import tempfile
+import rembg
+import Pillow
 from rembg import remove
 from PIL import Image
 from io import BytesIO
